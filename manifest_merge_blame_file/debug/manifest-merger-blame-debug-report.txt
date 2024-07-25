@@ -1,0 +1,162 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dan.naari"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CALL_PHONE" />
+11-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:5:5-69
+11-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:5:22-66
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission. ACCESS_COARSE_LOCATION" />
+13-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:7:5-82
+13-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:7:22-79
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:8:5-67
+14-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.SEND_SMS" />
+15-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:9:5-67
+15-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="android.permission.VOLUME_CONTROL" />
+16-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:10:5-73
+16-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:10:22-70
+17
+18    <application
+18-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:14:5-44:19
+19        android:allowBackup="true"
+19-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:15:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/d8e6145ebd5f6e1099b739484795a4bd/core-1.1.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:16:9-43
+23        android:label="@string/app_name"
+23-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:17:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:18:9-54
+25        android:supportsRtl="true"
+25-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:19:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:20:9-40
+28        <activity android:name="com.dan.naari.Splash" >
+28-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:21:9-27:20
+28-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:21:19-41
+29            <intent-filter>
+29-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:22:13-26:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:23:17-69
+30-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:23:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:25:17-77
+32-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:25:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity android:name="com.dan.naari.Registration" />
+35-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:28:9-49
+35-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:28:19-47
+36        <activity android:name="com.dan.naari.Login" />
+36-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:29:9-42
+36-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:29:19-40
+37        <activity android:name="com.dan.naari.HowToSwipe" />
+37-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:30:9-47
+37-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:30:19-45
+38        <activity android:name="com.dan.naari.DeveloperByActivity" />
+38-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:31:9-57
+38-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:31:19-54
+39        <activity android:name="com.dan.naari.TrigActivity" />
+39-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:32:9-50
+39-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:32:19-47
+40        <activity android:name="com.dan.naari.helplineCall" />
+40-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:33:9-50
+40-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:33:19-47
+41        <activity android:name="com.dan.naari.AddRelative" />
+41-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:34:9-49
+41-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:34:19-46
+42        <activity android:name="com.dan.naari.MainScreen" />
+42-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:35:9-48
+42-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:35:19-45
+43        <activity android:name="com.dan.naari.MainActivity" >
+43-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:36:9-42:20
+43-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:36:19-47
+44            <intent-filter>
+44-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:22:13-26:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:23:17-69
+45-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:23:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:25:17-77
+47-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:25:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity android:name="com.dan.naari.ViewListContents" />
+50-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:43:9-63
+50-->/Users/rihandsa/Downloads/Naari-master/app/src/main/AndroidManifest.xml:43:19-51
+51        <activity
+51-->[com.google.firebase:firebase-auth:18.1.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/c25166eec8382802f118a643ecbb0b07/jetified-firebase-auth-18.1.0/AndroidManifest.xml:24:9-31:50
+52            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+52-->[com.google.firebase:firebase-auth:18.1.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/c25166eec8382802f118a643ecbb0b07/jetified-firebase-auth-18.1.0/AndroidManifest.xml:25:13-85
+53            android:excludeFromRecents="true"
+53-->[com.google.firebase:firebase-auth:18.1.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/c25166eec8382802f118a643ecbb0b07/jetified-firebase-auth-18.1.0/AndroidManifest.xml:26:13-46
+54            android:exported="true"
+54-->[com.google.firebase:firebase-auth:18.1.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/c25166eec8382802f118a643ecbb0b07/jetified-firebase-auth-18.1.0/AndroidManifest.xml:27:13-36
+55            android:launchMode="singleTask"
+55-->[com.google.firebase:firebase-auth:18.1.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/c25166eec8382802f118a643ecbb0b07/jetified-firebase-auth-18.1.0/AndroidManifest.xml:28:13-44
+56            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+56-->[com.google.firebase:firebase-auth:18.1.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/c25166eec8382802f118a643ecbb0b07/jetified-firebase-auth-18.1.0/AndroidManifest.xml:29:13-102
+57            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+57-->[com.google.firebase:firebase-auth:18.1.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/c25166eec8382802f118a643ecbb0b07/jetified-firebase-auth-18.1.0/AndroidManifest.xml:30:13-72
+58
+59        <service
+59-->[com.google.firebase:firebase-auth:18.1.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/c25166eec8382802f118a643ecbb0b07/jetified-firebase-auth-18.1.0/AndroidManifest.xml:33:9-39:19
+60            android:name="com.google.firebase.components.ComponentDiscoveryService"
+60-->[com.google.firebase:firebase-auth:18.1.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/c25166eec8382802f118a643ecbb0b07/jetified-firebase-auth-18.1.0/AndroidManifest.xml:34:13-84
+61            android:exported="false" >
+61-->[com.google.firebase:firebase-auth:18.1.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/c25166eec8382802f118a643ecbb0b07/jetified-firebase-auth-18.1.0/AndroidManifest.xml:35:13-37
+62            <meta-data
+62-->[com.google.firebase:firebase-auth:18.1.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/c25166eec8382802f118a643ecbb0b07/jetified-firebase-auth-18.1.0/AndroidManifest.xml:36:13-38:85
+63                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+63-->[com.google.firebase:firebase-auth:18.1.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/c25166eec8382802f118a643ecbb0b07/jetified-firebase-auth-18.1.0/AndroidManifest.xml:37:17-109
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.firebase:firebase-auth:18.1.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/c25166eec8382802f118a643ecbb0b07/jetified-firebase-auth-18.1.0/AndroidManifest.xml:38:17-82
+65        </service>
+66
+67        <activity
+67-->[com.google.android.gms:play-services-base:17.0.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/e24ab2098bd581de9bdcddd5aa46d15d/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+68-->[com.google.android.gms:play-services-base:17.0.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/e24ab2098bd581de9bdcddd5aa46d15d/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+69            android:exported="false"
+69-->[com.google.android.gms:play-services-base:17.0.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/e24ab2098bd581de9bdcddd5aa46d15d/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+70-->[com.google.android.gms:play-services-base:17.0.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/e24ab2098bd581de9bdcddd5aa46d15d/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+71
+72        <provider
+72-->[com.google.firebase:firebase-common:18.0.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/5a7b608790bf9f4196c17a6b11866ecc/jetified-firebase-common-18.0.0/AndroidManifest.xml:12:9-16:39
+73            android:name="com.google.firebase.provider.FirebaseInitProvider"
+73-->[com.google.firebase:firebase-common:18.0.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/5a7b608790bf9f4196c17a6b11866ecc/jetified-firebase-common-18.0.0/AndroidManifest.xml:13:13-77
+74            android:authorities="com.dan.naari.firebaseinitprovider"
+74-->[com.google.firebase:firebase-common:18.0.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/5a7b608790bf9f4196c17a6b11866ecc/jetified-firebase-common-18.0.0/AndroidManifest.xml:14:13-72
+75            android:exported="false"
+75-->[com.google.firebase:firebase-common:18.0.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/5a7b608790bf9f4196c17a6b11866ecc/jetified-firebase-common-18.0.0/AndroidManifest.xml:15:13-37
+76            android:initOrder="100" />
+76-->[com.google.firebase:firebase-common:18.0.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/5a7b608790bf9f4196c17a6b11866ecc/jetified-firebase-common-18.0.0/AndroidManifest.xml:16:13-36
+77
+78        <meta-data
+78-->[com.google.android.gms:play-services-basement:17.0.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/f2c8b4624d1269ee053bd8db8444a9c2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+79            android:name="com.google.android.gms.version"
+79-->[com.google.android.gms:play-services-basement:17.0.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/f2c8b4624d1269ee053bd8db8444a9c2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+80            android:value="@integer/google_play_services_version" />
+80-->[com.google.android.gms:play-services-basement:17.0.0] /Users/rihandsa/.gradle/caches/transforms-2/files-2.1/f2c8b4624d1269ee053bd8db8444a9c2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+81    </application>
+82
+83</manifest>
